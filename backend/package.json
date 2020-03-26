@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a simple backend pack",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darko875/demo-app-1.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Daniel Sa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darko875/demo-app-1/issues"
+  },
+  "homepage": "https://github.com/Darko875/demo-app-1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
