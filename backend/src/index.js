@@ -13,6 +13,6 @@ app.use(routes)
 
 app.use(express.json)
 
-app.listen(process.env.PORT || 3000,() => {
-    console.log('Listenning to requests on port 3000');
+app.listen(process.env.PORT || 3333,() => {
+    console.log('Listenning to requests on port 3333');
 });
